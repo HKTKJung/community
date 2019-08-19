@@ -31,5 +31,13 @@ public class GithubUser {
     public void setBio(String bio) {
         this.bio = bio;
     }
-
+    //下面这段可以不要，暂时不影响20190815 23：31
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", bio='" + bio + '\'' +
+                '}';
+    }
 }
